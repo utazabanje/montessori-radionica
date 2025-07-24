@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Cenovnik</title>
+
+    <style>
+      .card {
+        width: 100%;
+      }
+
+      .card-text {
+        min-height: 80px;
+      }
+
+      .card-price {
+        text-align: right;
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      .title {
+        margin-top: 30px;
+        text-align: center;
+      }
+
+      .button-wrapper .btn {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="loader">
+      <div class="spinner"></div>
+    </div>
+    <div id="navbar-placeholder"></div>
+
+    <div class="container">
+      <h1 class="title">Cenovnik</h1>
+      <div class="row">
+        <div class="col-md-6 col-lg-4 g-4">
+          <div class="card h-100 d-inline-block">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Montesori radionica (basic)</h5>
+              <p class="card-text">
+                Osnovni program sa pažljivo osmišljenim aktivnostima koje
+                podstiču samostalnost i radoznalost deteta.
+              </p>
+              <p class="card-price">4000 din.</p>
+
+              <div class="button-wrapper">
+                <a href="./kontakt.html" class="btn action-btn link-with-loader"
+                  >Kontaktirajte nas</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 g-4">
+          <div class="card h-100 d-inline-block">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Montesori radionica (premium)</h5>
+              <p class="card-text">
+                Prošireni program koji uključuje dodatne kreativne i edukativne
+                radionice uz individualniji pristup.
+              </p>
+              <p class="card-price">5000 din.</p>
+
+              <div class="button-wrapper">
+                <a href="./kontakt.html" class="btn action-btn link-with-loader"
+                  >Kontaktirajte nas</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 g-4">
+          <div class="card h-100 d-inline-block">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Dnevni boravak</h5>
+              <p class="card-text">
+                Sigurno i toplo okruženje za celodnevni boravak, sa stručno
+                vođenim aktivnostima i slobodnom igrom.
+              </p>
+              <p class="card-price">6000 din.</p>
+
+              <div class="button-wrapper">
+                <a href="./kontakt.html" class="btn action-btn link-with-loader"
+                  >Kontaktirajte nas</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/scripts/script.js"></script>
+  </body>
+</html>
