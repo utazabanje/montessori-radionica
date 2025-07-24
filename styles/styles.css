@@ -20,6 +20,10 @@ body {
   z-index: 1;
 }
 
+h2 {
+  color: #6c79b3;
+}
+
 .overlay {
   width: 100%;
   position: absolute;
@@ -71,7 +75,7 @@ body {
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  animation: spin 1s linear infinite;;
+  animation: spin 1s linear infinite;
 }
 @keyframes spin {
   0% {
@@ -82,7 +86,9 @@ body {
   }
 }
 
-.navbar-brand, .navbar-brand:hover, .nav-link:hover  {
+.navbar-brand,
+.navbar-brand:hover,
+.nav-link:hover {
   color: #6c79b3;
 }
 
@@ -102,4 +108,25 @@ body {
 .citat {
   font-style: italic;
   line-height: 1;
+}
+
+.information-wrapper {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.information-wrapper img {
+  max-width: 25px;
+  margin-bottom: 10px;
+  filter: invert(57%) sepia(16%) saturate(1178%) hue-rotate(192deg) brightness(80%) contrast(85%);
+}
+
+.information-wrapper p, .information-wrapper a {
+  margin: 0;
+  color: #6c79b3;
+  font-size: 18px;
+}
+
+.information-wrapper a {
+  text-decoration: none;
 }
