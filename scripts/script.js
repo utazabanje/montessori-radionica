@@ -25,7 +25,7 @@ function loadLayoutParts() {
       document.getElementById("footer-placeholder").innerHTML = html;
     });
 
-  fetch("./email/contact_form.html")
+  fetch("email/contact_form.html")
     .then((res) => res.text())
     .then((html) => {
       document.getElementById("contact-form-placeholder").innerHTML = html;
