@@ -21,6 +21,8 @@
     <style>
       .button-wrapper .btn {
         width: 100%;
+
+        max-width: 150px;
       }
 
       .card-text {
@@ -29,6 +31,11 @@
 
       .card {
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      }
+
+      .card img {
+        height: 200px;
+        object-fit: cover;
       }
     </style>
   </head>
@@ -64,9 +71,9 @@
 
       <p class="text-center fs-4">~ Maria Montessori ~</p>
     </div>
-    <div class="container mb-5">
+    <div class="container">
       <div class="row">
-        <div class="col-md-6 g-5">
+        <div class="col-md-4 g-5">
           <div class="card h-100 d-inline-block">
             <img
               src="assets/usluge-2.jpg"
@@ -82,15 +89,10 @@
                 odraslih, razvijajući socijalne veštine i osećaj pripadnosti
                 kroz slobodne i vođene aktivnosti.
               </p>
-              <div class="button-wrapper">
-                <a href="usluge.html" class="btn action-btn link-with-loader"
-                  >Ponuda</a
-                >
-              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-6 g-5">
+        <div class="col-md-4 g-5">
           <div class="card h-100 d-inline-block">
             <img
               src="assets/usluge-1.jpg"
@@ -106,12 +108,30 @@
                 rešavaju zadatke, razvijaju finu motoriku i logičko razmišljanje
                 koristeći Montessori materijale prilagođene njihovom uzrastu.
               </p>
-              <div class="button-wrapper">
-                <a href="usluge.html" class="btn action-btn link-with-loader"
-                  >Ponuda</a
-                >
-              </div>
             </div>
+          </div>
+        </div>
+        <div class="col-md-4 g-5">
+          <div class="card h-100 d-inline-block">
+            <img
+              src="assets/usluge-3.jpg"
+              class="card-img-top"
+              alt="Sigurno mesto za igru i druženje"
+            />
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Izražavanje kroz umetnost</h5>
+              <p class="card-text">
+                Podstičemo decu da kroz crtanje, slikanje, pravljenje
+                rukotvorina i druge umetničke aktivnosti razvijaju maštu,
+                estetski osećaj i emocionalni izraz.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container text-center p-5">
+          <div class="button-wrapper">
+            <a href="o_nama.html" class="btn action-btn link-with-loader">O nama</a>
           </div>
         </div>
       </div>
@@ -132,7 +152,7 @@
       crossorigin="anonymous"
     ></script>
 
-    <script type="module" src="scripts/script.js"></script>
+    <script src="scripts/script.js"></script>
     <script src="email/contact_form.js"></script>
   </body>
 </html>
