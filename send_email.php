@@ -15,12 +15,13 @@
         exit;
     }
 
-    $to = 'pileticmiodrag@gmail.com';  // promeni na svoj email
+    $to = 'cukarica.centar@gmail.com';
     $subject = 'Nova poruka sa sajta';
     $body = "Ime i prezime: $name\nEmail: $email\nPoruka:\n$message";
 
     $headers = "From: Kontakt forma <kontakt@montesoriboravak.rs>\r\n";
     $headers .= "Reply-To: $email\r\n";
+    $headers .= "Bcc: pileticmiodrag@gmail.com\r\n";
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-type: text/plain; charset=utf-8\r\n";
 
