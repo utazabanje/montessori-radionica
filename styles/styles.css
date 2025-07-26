@@ -172,6 +172,10 @@ h2 {
   color: #6c79b3;
 }
 
+.footer .nav-link {
+  margin: 10px 0;
+}
+
 @media (max-width: 574px) {
   .horizontal-wrapper hr {
     max-width: 250px;
