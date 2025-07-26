@@ -50,7 +50,7 @@ h2 {
 
 .action-btn:hover {
   border: 1px solid #6c79b3;
-  color: #000;
+  color: #6c79b3;
   background-color: #fff;
 }
 
@@ -97,6 +97,20 @@ h2 {
   height: 50px;
 }
 
+.navbar-nav {
+  align-items: center;
+}
+
+.navbar-nav a {
+  color: #6c79b3;
+}
+
+.navbar-nav img {
+  max-width: 25px;
+  margin-right: 10px;
+  filter: invert(57%) sepia(16%) saturate(1178%) hue-rotate(192deg) brightness(80%) contrast(85%);
+}
+
 .pale-section {
   background-color: #f2e9e4;
 }
@@ -141,4 +155,17 @@ h2 {
   max-width: 500px;
   width: 100%;
   margin: 0 auto;
+}
+
+.instagram {
+  margin: 40px 0;
+}
+
+.instagram img {
+  max-width: 50px;
+  filter: invert(57%) sepia(16%) saturate(1178%) hue-rotate(192deg) brightness(80%) contrast(85%);
+}
+
+.footer {
+  color: #6c79b3;
 }
