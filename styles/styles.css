@@ -46,6 +46,8 @@ h2 {
   color: #fff;
   padding: 10px 15px;
   font-size: 18px;
+  width: 100%;
+  max-width: 150px;
 }
 
 .action-btn:hover {
