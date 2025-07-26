@@ -103,6 +103,7 @@ h2 {
 
 #navbar-placeholder {
   background-color: #f2e9e4;
+  min-height: 76px;
 }
 
 .citat {
