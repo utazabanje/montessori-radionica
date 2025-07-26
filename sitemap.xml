@@ -2,11 +2,47 @@
 <urlset
 	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+	                    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+	<!-- Početna strana -->
 	<url>
 		<loc>https://www.montesoriboravak.rs</loc>
+		<lastmod>2025-07-25</lastmod>
 		<changefreq>monthly</changefreq>
-		<lastmod>2025-07-25T15:34:57+00:00</lastmod>
 		<priority>1.00</priority>
 	</url>
+
+	<!-- O nama -->
+	<url>
+		<loc>https://www.montesoriboravak.rs/o-nama.html</loc>
+		<lastmod>2025-07-25</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+
+	<!-- Usluge -->
+	<url>
+		<loc>https://www.montesoriboravak.rs/usluge.html</loc>
+		<lastmod>2025-07-25</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+
+	<!-- Cenovnik -->
+	<url>
+		<loc>https://www.montesoriboravak.rs/cenovnik.html</loc>
+		<lastmod>2025-07-25</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<!-- Kontakt -->
+	<url>
+		<loc>https://www.montesoriboravak.rs/kontakt.html</loc>
+		<lastmod>2025-07-25</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
 </urlset>
