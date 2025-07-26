@@ -4,7 +4,7 @@ body {
 }
 
 .jumbotron {
-  background-image: url("../assets/main_img.jpg");
+  background-image: url("../assets/main_img.webp");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -112,7 +112,7 @@ h2 {
 
 .information-wrapper {
   text-align: center;
-  margin: 50px 0;
+  margin-top: 50px;
 }
 
 .information-wrapper img {

@@ -29,6 +29,32 @@
     <meta name="keywords" content="usluge, montesori radionica, boravak za decu, razvoj dece, Čukarička padina, Filmski grad, kreativno učenje">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Montesori boravak">
+
+    <meta property="og:title" content="Montesori radionica i boravak – Čukarička padina" />
+    <meta property="og:description" content="Kreativni boravak i radionice za decu uz Montesori pristup na Čukaričkoj padini." />
+    <meta property="og:image" content="https://montesoriboravak.rs/assets/usluge-4.webp" />
+    <meta property="og:url" content="https://montesoriboravak.rs/" />
+    <meta property="og:type" content="website" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Usluge - Montesori boravak",
+        "url": "https://montesoriboravak.rs/usluge.html",
+        "provider": {
+          "@type": "Preschool",
+          "name": "Montesori Boravak",
+          "url": "https://montesoriboravak.rs"
+        },
+        "serviceType": "Montesori radionice, boravak za decu, kreativne aktivnosti",
+        "areaServed": {
+          "@type": "Place",
+          "name": "Čukarička padina, Beograd"
+        }
+      }
+    </script>
+
     <title>Usluge</title>
 
     <style>
@@ -112,37 +138,37 @@
           title: "Razvijamo samostalnost i kreativnost",
           description:
             "Deca kroz pažljivo osmišljene aktivnosti uče da samostalno rešavaju zadatke, razvijaju finu motoriku i logičko razmišljanje koristeći Montessori materijale prilagođene njihovom uzrastu.",
-          image: "assets/usluge-1.jpg",
+          image: "assets/usluge-1.webp",
         },
         {
           title: "Sigurno mesto za igru i druženje",
           description:
             "Prostor gde deca provode vreme u igri i učenju, uz podršku odraslih, razvijajući socijalne veštine i osećaj pripadnosti kroz slobodne i vođene aktivnosti.",
-          image: "assets/usluge-2.jpg",
+          image: "assets/usluge-2.webp",
         },
         {
           title: "Izražavanje kroz umetnost",
           description:
             "Podstičemo decu da kroz crtanje, slikanje, pravljenje rukotvorina i druge umetničke aktivnosti razvijaju maštu, estetski osećaj i emocionalni izraz.",
-          image: "assets/usluge-3.jpg",
+          image: "assets/usluge-3.webp",
         },
         {
           title: "Zdrav razvoj i energija na delu",
           description:
             "Organizujemo igre i vežbe na svežem vazduhu koje pomažu deci da razviju koordinaciju, snagu i izdržljivost, kao i da steknu naviku zdravog života.",
-          image: "assets/usluge-4.jpg",
+          image: "assets/usluge-4.webp",
         },
         {
           title: "Ritam i harmonija za male talente",
           description:
             "Kroz igru sa instrumentima, pevanje i pokret, deca razvijaju osećaj za muziku, sluh i motoriku, ali i samopouzdanje i timski duh.",
-          image: "assets/usluge-5.jpg",
+          image: "assets/usluge-5.webp",
         },
         {
           title: "Učenje kroz zajedništvo",
           description:
             "Pomažemo deci da razumeju i izraze svoja osećanja, nauče kako da komuniciraju, sarađuju i rešavaju konflikte na pozitivan način.",
-          image: "assets/usluge-6.jpg",
+          image: "assets/usluge-6.webp",
         },
       ];
 
@@ -151,7 +177,7 @@
           .map(function (card) {
             return `<div class="col-md-6 col-lg-4 g-4">
                 <div class="card h-100 d-inline-block">
-                  <img src="${card.image}" class="card-img-top" alt="${card.title}" />
+                  <img loading="lazy" src="${card.image}" class="card-img-top" alt="${card.title}" />
                   <div class="card-body">
                     <h5 class="card-title fw-bold">
                       ${card.title}
