@@ -154,7 +154,7 @@ h2 {
 }
 
 .horizontal-wrapper hr {
-  max-width: 500px;
+  max-width: 400px;
   width: 100%;
   margin: 0 auto;
 }
@@ -170,4 +170,10 @@ h2 {
 
 .footer {
   color: #6c79b3;
+}
+
+@media (max-width: 574px) {
+  .horizontal-wrapper hr {
+    max-width: 250px;
+  }
 }
